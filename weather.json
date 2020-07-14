@@ -1,0 +1,17 @@
+[
+    {
+        "id": "0",
+        "value": "2.622 BYN",
+        "image": "./svg/euro-sign-solid.svg"
+    },
+    {
+        "id": "1",
+        "value": "2.429 BYN",
+        "image": "./svg/dollar-sign-solid.svg"
+    },
+    {
+        "id": "2",
+        "value": "23°C",
+        "image": "./svg/cloud-sun-solid.svg"
+    }
+]
