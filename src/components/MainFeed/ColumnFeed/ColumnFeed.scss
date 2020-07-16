@@ -1,0 +1,52 @@
+@import '../../../globals.scss';
+
+.column-feed-wrapper {
+    position: relative;
+    border: 1px solid $borders-color;
+    border-top: 5px solid $color-yellow;
+    padding: 20px;
+    width: 320px;
+    height: 792px;
+    overflow: hidden;
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 300px;
+        height: 50px;
+        bottom: 0px;
+        background: linear-gradient(to top, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+        z-index: 1000;
+    }
+}
+.column-feed-news {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.column-news-wrapper {
+    margin-top: 10px;
+    &::after {
+        content: "";
+        display: block;
+        width: 300px;
+        height: 1px;
+        background: radial-gradient(circle, $borders-color, rgba(255, 255, 255, 0));
+        margin-top: 15px;
+    }  
+}
+.column-news-date {
+    font-size: 12px;
+    color: $date-color;
+    display: inline-block;
+    margin-bottom: 6px;
+}
+.column-news-title {
+    color: $text-sub_title-color;
+    font-size: 15px;
+    margin: 0;
+    transition: 0.2s ease;
+    &:hover {
+        color: $hover-active-color;
+    }
+}

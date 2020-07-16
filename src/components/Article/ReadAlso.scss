@@ -1,0 +1,35 @@
+@import '../../globals.scss';
+
+.read-column-wrapper {
+    margin: 20px 0 0 20px;
+    border-top: 1px solid $borders-color;
+}
+.read-also {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: $text-sub_title-color;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.article-column-wrapper {
+    margin-bottom: 20px;
+    display: block;
+    width: 320px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    & img {
+        @extend %image-rules;
+    }
+    &:hover img {
+        transform: scale(1.2);
+    }
+}
+.column-title {
+    position: absolute;
+    bottom: 20px;
+    margin: 0 20px;
+    font-size: 16px;
+    color: $title-color;
+    text-shadow: $text-shadow;
+}

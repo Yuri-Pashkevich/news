@@ -1,0 +1,13 @@
+.content-news-wrapper {
+    display: flex;
+    margin-top: 20px;
+    & a:nth-child(2) {
+        margin: 0 20px;
+    }
+}
+.content-link {
+    height: 355px;
+}
+.content-sub-link {
+    margin-top: 0;
+}

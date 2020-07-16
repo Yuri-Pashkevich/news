@@ -1,0 +1,11 @@
+.content-main-wrapper {
+    margin-left: 20px;
+    width: 800px;
+}
+.content-sub-wrapper {
+    display: flex;
+    margin-top: 20px;
+    & a:nth-child(2) {
+        margin-left: 20px;
+    }
+}

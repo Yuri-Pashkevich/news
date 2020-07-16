@@ -1,0 +1,49 @@
+@import '../../globals.scss';
+
+.article-content-wrapper {
+    display: flex;
+}
+.article-wrapper {
+    width: 800px;
+    margin-top: 20px;
+}
+.article-border {
+    border: 1px solid $borders-color;
+}
+.article-padding {
+    padding: 20px 50px;
+}
+.article-title {
+    font-size: 36px;
+    color: $text-sub_title-color;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+}
+.article-subwrapper {
+    display: flex;
+}
+.article-rubric {
+    @extend %rubric-lable;
+}
+.article-date {
+    font-size: 15px;
+    color: $date-color;
+    bottom: 15px;
+    margin-left: 20px;
+}
+
+.article-image {
+    width: 100%;
+    margin-top: 10px;
+    display: block;
+}
+.text-wrapper {
+    padding: 50px;
+    background-color: rgb(251, 251, 251);
+}
+.article-text {
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    margin: 0;
+}

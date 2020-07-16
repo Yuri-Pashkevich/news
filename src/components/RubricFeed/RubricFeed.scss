@@ -1,0 +1,46 @@
+@import '../../globals.scss';
+
+.content-feed-link {
+    border: 1px solid $borders-color;
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    & img {
+        @extend %image-rules;
+    }
+    &:hover img{
+        transform: scale(1.2);
+    }
+    &:hover .content-feed-title {
+        color: $hover-active-color;
+    }
+}
+.content-feed_image-wrapper {
+    height: 280px;
+    width: 500px;
+    overflow: hidden;  
+}
+.content-feed-wrapper {
+    padding: 15px;
+    width: 640px;
+}
+.content-feed-rubric {
+    @extend %rubric-lable;
+}
+.content-feed-title {
+    font-size: 21px;
+    color: $text-sub_title-color;
+    font-weight: 600;
+    margin: 20px 0 20px;
+    transition: 0.2s ease;
+}
+.content-feed-text {
+    color: $text-sub_title-color;
+    font-size: 16px;
+}
+.content-feed-data {
+    font-size: 15px;
+    color: $date-color;
+    position: absolute;
+    bottom: 15px;
+}
