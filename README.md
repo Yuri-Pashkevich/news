@@ -16,6 +16,6 @@ You will also see any lint errors in the console.
 
 Make sure you have modules installed, or load them from npm:
 
-Node-sass / npm i node sass
-React responsive / npm i react-responsive
-React router / npm i react-router-dom
+1. Node-sass / npm i node sass
+2. React responsive / npm i react-responsive
+3. React router / npm i react-router-dom
